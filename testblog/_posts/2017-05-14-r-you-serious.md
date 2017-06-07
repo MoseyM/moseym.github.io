@@ -9,7 +9,7 @@ tags:
   - r
 ---
 
-Nested and mixed lists are an interesting beast. It's a corner case to make sure that
+Recently I learned about [R](https://www.r-project.org/ "rlang link") and [Rstudio](https://www.rstudio.com "rstudio link"). This was an interesting piece of programming for me to get exposed to. I attended a class on web scraping (*short, sweet definition a way of taking information from a website*). R is technically, I guess, used for statistics.  
 
 * Lists within lists do not break the ordered list numbering order
 * Your list styles go deep enough.
