@@ -24,4 +24,4 @@ It is a lot more interesting and powerful then I am able, with my experience in 
 	
 Small snippet and really where I first started learning. This snippet basically imports an R package called *rvest* which makes it easier to grab and manipulate data from an HTML source. What was tricky was the way variables were declared. As you can see there is a pipe that takes the data from the right into the left variable.
 
-All in all there is much to be learned. R is incredibly powerful and somewhat easy to learn, at least conceptually. Another road was rode on my journey to learning.
+All in all there is much to be learned. R is incredibly powerful and somewhat easy to learn, at least conceptually. Just another development discovery, being documented.
