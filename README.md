@@ -1,25 +1,74 @@
-# Halve  [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
+# Particle Jekyll Theme
 
-This theme is Jekyll port of [vangeltzo.com](http://vangeltzo.com/) (by [Vangelis Tzortzis](https://github.com/srekoble)).
+![](./particle.jpg)
 
-To learn how to install and use this theme check out the [installation guide](https://taylantatli.github.io/Halve/halve-theme/) for more information.
+This is a simple and minimalist template for Jekyll designed for developers that want to show of their portfolio.
 
-If you have a question, find a bug, or just want to say hi, please open an [issue on GitHub](https://github.com/TaylanTatli/Halve/issues/new).
+The Theme features:
 
-## Preview   
-![screenshot of Halve](/images/halve-home-image.png)
+- Gulp
+- SASS
+- Sweet Scroll
+- Particle.js
+- BrowserSync
+- Font Awesome and Devicon icons
+- Google Analytics
+- Info Customization
 
-See a [live version of Halve](http://taylantatli.github.io/Halve) hosted on GitHub.
+## Basic Setup
 
-# Credits
-- Original Work: [Vangelis Tzortzis](https://github.com/srekoble)  
-- Sample Posts and some code examples: [Michael Rose](https://github.com/mmistakes/)
-- Images: [Unsplash](https://unsplash.com/) and [Lorem Pixel](http://lorempixel.com)
+1. [Install Jekyll](http://jekyllrb.com)
+2. Fork the [Particle Theme](https://github.com/nrandecker/particle/fork)
+3. Clone the repo you just forked.
+4. Edit `_config.yml` to personalize your site.
 
-### Others
-- [Jekyll](http://jekyllrb.com/)
-- [jQuery](http://jquery.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
+## Site and User Settings
+
+You have to fill some informations on `_config.yml` to customize your site.
+
+```
+# Site settings
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
+
+# User settings
+username: Lorem Ipsum
+user_description: Anon Developer at Lorem Ipsum Dolor
+user_title: Anon Developer
+email: anon@anon.com
+twitter_username: lorem_ipsum
+github_username:  lorem_ipsum
+gplus_username:  lorem_ipsum
+```
+
+**Don't forget to change your url before you deploy your site!**
+
+## Color and Particle Customization
+- Color Customization
+  - Edit the sass variables
+- Particle Customization
+  - Edit the json data in particle function in app.js
+  - Refer to [Particle.js](https://github.com/VincentGarreau/particles.js/) for help
+
+## Running the blog in local
+
+In order to compile the assets and run Jekyll on local you need to follow those steps:
+
+- Install [NodeJS](https://nodejs.org/)
+- Run `npm install`
+- Run `gulp`
+
+## Questions
+
+Having any issues file a [GitHub Issue](https://github.com/nrandecker/particle/issues/new).
+
+## License
+
+This theme is free and open source software, distributed under the The MIT License. So feel free to use this Jekyll theme anyway you want.
+
+## Credits
+
+This theme was partially designed with the inspiration from these fine folks
+- [Willian Justen](https://github.com/willianjusten/will-jekyll-template)
+- [Vincent Garreau](https://github.com/VincentGarreau/particles.js/)

@@ -1,0 +1,33 @@
+.btn {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  font-size: 0.8em;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 2px;
+}
+a.btn {
+  text-decoration: none;
+  color: #ffffff;
+}
+.btn_facebook{
+  background-color: #3b5998;
+  border: 1px solid #3b5998;
+}
+.btn_facebook:hover{
+  background-color: #6c83b2;
+  border-color: #6c83b2;
+}
+.btn_google-plus{
+  background-color: #dc4e41;
+  border: 1px solid #dc4e41;
+}
+.btn_google-plus:hover{
+  background-color: #6c83b2;
+  border-color: #6c83b2;
+}
+.btn_twitter{
+  background-color: #55acee;
+  border: 1px solid #55acee;
+}
