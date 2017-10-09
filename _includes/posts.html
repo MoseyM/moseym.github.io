@@ -3,11 +3,15 @@
     <h3> Featured Posts </h3>
   </div>
   <div class="row user-projects">
-  {% for post in site.posts limit:4 %}
+  {% for post in site.posts limit:2 %}
       <div class="six columns">
         <h5>{{post.title}}</h5>
         <p>{{post.content |strip_html| truncatewords:45}}<a href={{ post.url }}>Read More</a></p>
       </div>
   {% endfor %}
 </div>
+<div class="row user-projects" id="post-list-button">
+  <div class="twelve columns"><button><a href="{{ site.url}}/postList.html">See More</a></button></div>
+</div>
+
 </div>
