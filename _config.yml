@@ -1,20 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
-title: A public journal of webdev discoveries
-description: A public journal of webdev discoveries
-# baseurl: "/particle" # the subpath of your site, e.g. /blog
-url: "https://moseym.github.io/"
-permalink: /:year/:month/:day/:title.html
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Your awesome title
+email: your-email@example.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
 
-# User settings
-username: Moseyee
-user_description: I am self-characterized as unconventional (in theory). I am a fullstack developer who enjoys doing a variety of things. I wanted to start documenting my findings, some quick tricks that I have learned along the way and the likes. So why not with a Jekyll blog. You should expect clean, bloat-free, lightly comedic posts (or possibly have no expectations, makes it more interesting)
-user_title: Web Developer
-twitter_username: regalcoder
-github_username: moseym
-linkedin_username: margaretmoseyee
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-# Google-analytics
-# google-analytics:
-#   id: "UA-104303368-1"
-
-exclude: ['package.json', 'src' , 'node_modules']
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
