@@ -1,0 +1,29 @@
+---
+layout: default-noimage
+description: Regalcoder blog site for tech related commentary affecting the african diaspora and african homeland communities.
+---
+
+<div class="row">
+    <div id="headerTitle" class="col-xs-12">
+        <h1>{{ page.lessonTitle }}</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-12">
+        <a href="/lessons">
+            <button class="go-back btn btn-primary">
+                Back to Lessons</button>
+        </a>
+    </div>
+</div>
+<div class="row" id="course-box">
+    <div class="col-md-3" id="table-of-contents-box">
+        <?php echo $tableofcontents ?>
+    </div>
+    <div class="col-md-8">
+        <h2 id="contentTitle"><?php echo $lessonTitle ?></h2>
+        <div id="lessonContent">
+            <?php echo $content ?>
+        </div>
+    </div>
+</div>
