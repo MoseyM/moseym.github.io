@@ -4,11 +4,13 @@ title:  "Three Years and Counting"
 description: 'I decided to become a developer in January of 2014. I was working as a customer service supervisor, getting my hands on exposure to the real'
 date:   2018-02-01 03:16:33 -0600
 categories: diary
-snippet: "bling"
+excerpt_separator: <!--more-->
+
 ---
 
 <p>I decided to become a developer in January of 2014. I was working as a customer service supervisor, getting my hands on exposure to the real workings of a small business. It was great but ultimately, I knew I wasn't really growing as a professional. I was just coasting. I wasn't tremendously unhappy but I wasn't content either. </p>
 
+<!--more-->
 <p>I worked until 4 in the afternoon and only lived 2 miles away from work. As imagined, I was very spoiled when it came to transit and time. So after work, I would go to my nearest library and work through the, then free, courses on Codecademy. I did this for about two months, an hour or two a day when I decided that I wanted to take the next step. I attended a coding bootcamp and the rest is history. I started working professionally around Easter 2015.</p>
 
 <p>Below are some things I realized during this short time in my career. That I wanted to write about and share.</p>
