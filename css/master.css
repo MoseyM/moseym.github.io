@@ -64,22 +64,24 @@ body {
 #forBlog {
 	margin-bottom: 20px;
 }
+#home-links {
+	text-align: center;
+	margin-bottom: 10px;
+}
+#home-links span:first-child {
+	padding-right: 5px;
+	border-right: 1px dashed grey;
+}
 #wrap {
 	min-height: 100%;
 	height: auto;
 	margin: 0 auto -50px;
 	padding: 0 0 50px;
 }
-nav.navbar {
-	background: #fff;
-}
 #header {
+	margin: 0 auto;
 	height: 300px;
-	background: url('/images/header_large.jpg') no-repeat center center;
-}
-.navbar-default {
-	border: none;
-	border-radius: 0;
+	background: url('../images/header_large.jpg') no-repeat center center;
 }
 #headerTitle {
 	padding: 25px 0;
@@ -87,6 +89,13 @@ nav.navbar {
 	font-weight: 800;
 	background-color: #ff9c9c;
 	margin-bottom: 15px;
+}
+.navbar-default {
+	border: none;
+	border-radius: 0;
+}
+nav.navbar {
+	background: #fff;
 }
 nav.colorNavbar {
 	background-color: #ff9c9c;
@@ -154,6 +163,9 @@ a.post-link:visited {color: #fe0da6;}
 }
 #about-row h2 {
 	text-align: center;
+}
+#navbar-links {
+	
 }
 .navbar {
 	margin-bottom: 0px;

@@ -9,14 +9,13 @@
 
     <div id="wrap">
 			<main class="container-fluid" role="main">  
-        <div class="row">
-            <div id="header" class="col-xs-12">
-            </div>
+        <div class="row" id="header">
         </div>
         <div class="row">
-          <div class='col-lg-6 col-lg-offset-3 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1'>
+          <div class='col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-sm-10 offset-sm-1'>
             {%- include nav-breadcrumbs.html -%}
             {{ content }}
+          </div>
           </div>
         </div>
       </main>
