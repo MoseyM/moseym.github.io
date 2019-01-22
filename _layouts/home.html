@@ -1,11 +1,82 @@
 ---
-layout: default
 description: Regalcoder blog site for tech related commentary affecting the african diaspora and african homeland communities.
 ---
-<div id="home-links">
-	<span><a href="/projects">Projects</a></span>
-	<span><a href="/writings">Writings</a></span>
-</div>
-<p>
-    I am self-characterized as unconventional (in theory). I am a fullstack developer who enjoys doing a variety of things. I wanted to start documenting my findings, some quick tricks that I have learned along the way and the likes. So why not with a Jekyll blog. You should expect clean, bloat-free, lightly comedic posts (or possibly have no expectations, makes it more interesting)
-</p>
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <body>
+    <div id="wrap">
+      <div class="container">  
+        {%- include header.html -%}
+				<div class="row" id="header"></div>
+				<div class="row mt-3 mb-3 mx-auto">
+					<div class="col">
+						<blockquote class="blockquote text-center">
+							<p class="mb-0">“Trust yourself. Think for yourself. Act for yourself. Speak for yourself. <span class="post-link" style="font-weight: bold;">Be</span> yourself. Imitation is suicide.”</p>
+							<footer class="blockquote-footer"><cite title="Source Title">Marva Collins</cite></footer>
+						</blockquote>
+					</div>
+				</div>
+				<h1 class="home-headers">Latest Posts</h1>
+        <div class="row">
+					<div class="col-sm-12 col-md">
+						<div class="card w-auto mt-2">
+								<img src="/images/coder_computer.jpg" class="card-img-top" alt="coder and computer">
+								<div class="card-body">
+									<h5 class="card-title">Demotivation as a Developer</h5>
+									<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>			
+									<a href="#" class="post-link btn btn-light">Read More</a>
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md">
+						<div class="card w-auto mt-2">
+							<img src="/images/coder_computer.jpg" class="card-img-top" alt="coder and computer">
+							<div class="card-body">
+								<h5 class="card-title">Demotivation as a Developer</h5>
+								<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>			
+								<a href="#" class="post-link btn btn-light">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row my-3 mx-auto" style="background: gray; color: white;">
+					<div class="col text-center">
+						<h1 class="home-headers  text-center">Connect</h1>
+						<ul class="list-inline">
+							<li class="list-inline-item mr-4"><i class="fab fa-instagram"></i></li>
+							<li class="list-inline-item mr-4"><i class="fab fa-linkedin-in"></i></li>
+							<li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+						</ul>
+					</div>
+				</div>
+				
+				<h1 class="home-headers">Current Project</h1>
+				<div class="row">
+					<div class="col-12 col-md-6 mb-2">
+						<div class="card w-100">
+								<div class="card-body">
+									<h5 class="card-title">MoneyWORTH</h5>
+									<h6 class="card-subtitle mb-2 text-muted">React web app providing a means of seeing the true cost of debt(loans)</h6>
+									<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>							
+									<a href="/projects/" class="post-link btn btn-light">View More Details</a>
+								</div>
+						</div>					
+					</div>
+					<div class="col-12 col-md-6">
+						<div class="card w-100">
+							<div class="card-body">
+								<h5 class="card-title">Twitter Cards</h5>
+								<h6 class="card-subtitle mb-2 text-muted">React web app providing a means of seeing the true cost of debt(loans)</h6>
+								<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>							
+								<a href="/projects/" class="post-link btn btn-light">View More Details</a>
+							</div>
+						</div>					
+						</div>
+				</div>
+      </div>
+    </div>
+    {%- include footer.html -%}
+  </body>
+
+</html>
