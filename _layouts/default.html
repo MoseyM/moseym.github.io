@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-
   {%- include head.html -%}
-
   <body>
-
-    {%- include header.html -%}
-
     <div id="wrap">
-			<main class="container-fluid" role="main">  
-        <div class="row" id="header">
-        </div>
+      <div class="container-fluid">  
+        {%- include header.html -%}
         <div class="row">
-          <div class='col-lg-6 offset-lg-3 col-md-10 offset-md-1 col-sm-10 offset-sm-1'>
-            {%- include nav-breadcrumbs.html -%}
-            {{ content }}
-          </div>
+          <div class='col'>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-12 col-md">
+                  {%- include nav-breadcrumbs.html -%}
+                  {{ content }}
+                </div>
+                <div class="col-md-2"></div>
+            </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
-
     {%- include footer.html -%}
-
   </body>
 
 </html>
