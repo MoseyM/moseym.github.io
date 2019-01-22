@@ -19,26 +19,22 @@ description: Regalcoder blog site for tech related commentary affecting the afri
 				</div>
 				<h1 class="home-headers">Latest Posts</h1>
         <div class="row">
-					<div class="col-sm-12 col-md">
-						<div class="card w-auto mt-2">
-								<img src="/images/coder_computer.jpg" class="card-img-top" alt="coder and computer">
-								<div class="card-body">
-									<h5 class="card-title">Demotivation as a Developer</h5>
-									<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>			
-									<a href="#" class="post-link btn btn-light">Read More</a>
+					{% for i in (1..1) %}
+						{% for post in site.posts %}
+							<div class="col-sm-12 col-md">
+								<div class="card w-auto mt-2" style="height: 100%;">
+									<img src="{{ post.image_src }}" class="card-img-top" alt="{{ post.image_alt }}">
+									<div class="card-body">
+										<h5 class="card-title">{{ post.title }}</h5>
+										<p class="card-text">{{ post.excerpt }}</p>			
+									</div>
+									<div class="card-footer text-right">
+											<a href="{{ post.url }}" class="post-link btn btn-link" style="font-weight: bold;">Read More</a>
+									</div>
 								</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md">
-						<div class="card w-auto mt-2">
-							<img src="/images/coder_computer.jpg" class="card-img-top" alt="coder and computer">
-							<div class="card-body">
-								<h5 class="card-title">Demotivation as a Developer</h5>
-								<p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>			
-								<a href="#" class="post-link btn btn-light">Read More</a>
 							</div>
-						</div>
-					</div>
+						{% endfor %}
+					{% endfor%}
 				</div>
 				<div class="row my-3 mx-auto" style="background: gray; color: white;">
 					<div class="col text-center">
