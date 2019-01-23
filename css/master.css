@@ -1,11 +1,7 @@
-@font-face { 
-	font-family: Skarpal;
-	src: url('/fonts/skarpaLt.ttf');
-}
-
 body {
-	/* font-family: Skarpal; */
+	font-family: 'Raleway', sans-serif;
 	height: 100%;
+	color: #939393;
 }
 .go-back {
 	color: #fff;
