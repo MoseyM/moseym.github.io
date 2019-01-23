@@ -140,13 +140,13 @@ button { border: none;}
 	padding-top: 2px;
 	height: 50px;
 	background: #ffffff;
-	color: #006400;
+	color: #935414;
 }
 .footer span {
 	margin: 10px;
 }
 .footer span a {
-	color: #006400;
+	color: #935414;
 }
 #about-row {
 	background-color: #E70000; 
@@ -157,6 +157,9 @@ button { border: none;}
 #about-row {
 	color: #fff;
 	padding: 10px 10px 30px 10px;
+}
+.social-links {
+	border-radius: 1.25em;
 }
 #black-background {
 	background: #000000;
