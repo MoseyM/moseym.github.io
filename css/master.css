@@ -3,6 +3,9 @@ body {
 	height: 100%;
 	color: #939393;
 }
+.list-group-item {
+	border:none;
+}
 .go-back {
 	color: #fff;
 	font-weight: 400;
