@@ -1,0 +1,37 @@
+body {
+    background-color: #1e1c15;
+    color: #de8435;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-heading-name {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 5em;
+}
+.home-heading-wrapper {
+    text-align: center;
+    border-bottom: 2px #de8435 dotted;
+    margin-bottom: 20px;
+}
+.card {
+    background: none;
+    border: none;
+}
+.project-heading {
+    font-size: 1.45em;
+    text-align: left;
+}
+p.project-description { 
+    color: rgb(6,187,11); 
+    display: block;
+    text-align: justify;
+    padding: 0 25px;
+    margin: 15px 0;
+}
+button.btn {
+    text-align: center;
+    background-color: #1919ff;
+    border-radius: 0;
+    color: #1e1c15;
+    margin-right: 8px;
+}
