@@ -20,6 +20,7 @@ body {
 .project-heading {
     font-size: 1.45em;
     text-align: left;
+    display: block;
 }
 p.project-description { 
     color: rgb(6,187,11); 
@@ -34,4 +35,9 @@ button.btn {
     border-radius: 0;
     color: #1e1c15;
     margin-right: 8px;
+}
+.lang-logo {
+    display: block;
+    width: 55.87px;
+    height: 50px;
 }
